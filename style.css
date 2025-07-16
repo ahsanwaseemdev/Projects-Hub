@@ -1,0 +1,226 @@
+/* ==================================================
+   Global Styles
+================================================== */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Cinzel", serif; /* Royal style font */
+}
+
+body {
+  width: 1300px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #0b0c10;
+  color: #fff;
+  transition: background-color 0.5s ease;
+}
+
+/* ==================================================
+   Header / Top Section Styling
+================================================== */
+.upperdiv {
+  display: flex;
+  align-content: center;
+  column-gap: 15px;
+  align-items: center;
+  padding: 20px;
+  background-color: #0b2447; /* Deep Royal Blue */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+.Between {
+  font-size: 20px;
+  text-align: right;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.Between:hover {
+  color: #f0c300;
+}
+
+.again {
+  text-align: left;
+  width: 20%;
+}
+
+.againbtn {
+  font-size: 24px;
+  padding: 10px 20px;
+  width: 100%;
+  background-color: #f0f8ff;
+  color: #0b2447;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.againbtn:hover {
+  background-color: #dcdcdc;
+  transform: scale(1.05);
+}
+
+.guessheaddiv {
+  width: 60%;
+  text-align: center;
+}
+
+.Betweendiv {
+  width: 20%;
+}
+
+.guesshead {
+  color: #000000;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 10px;
+  background-color: #f0c300; /* Gold */
+  padding: 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  box-shadow: 0 0 10px #f0c300;
+  transition: all 0.4s ease-in-out;
+}
+
+.guesshead:hover {
+  background-color: #ffda44;
+  transform: scale(1.03);
+}
+
+/* ==================================================
+   Main Content Section (Middle Div)
+================================================== */
+.middlediv {
+  background-color: #19376d; /* Royal Navy Blue */
+  width: 100%;
+  height: 550px;
+  display: flex;
+  margin-top: 10px;
+  border-radius: 10px;
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.middledivleft {
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  border-right: 6px solid #000000;
+}
+
+.inputdiv {
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+.input {
+  font-size: 55px;
+  width: 80px;
+  height: 60px;
+  border: 2px solid #f0c300;
+  border-radius: 12px;
+  text-align: center;
+  background-color: #f5f5f5;
+  color: #000;
+  transition: transform 0.3s;
+}
+
+.input:focus {
+  outline: none;
+  transform: scale(1.05);
+}
+
+.checkbtn {
+  width: 150px;
+  font-size: 28px;
+  font-weight: bold;
+  height: 55px;
+  font-style: oblique;
+  background-color: #f0c300;
+  color: #000000;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.checkbtn:hover {
+  background-color: #dab400;
+  transform: scale(1.08);
+}
+
+/* ==================================================
+   Result Panel (Right Side of Middle Div)
+================================================== */
+.middledivright {
+  padding-top: 200px;
+  width: 70%;
+  color: #ffffff;
+  margin-right: 50px;
+  padding-right: 50px;
+}
+
+.scorediv {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.score {
+  margin-top: 8px;
+  margin-left: 200px;
+}
+
+.mainscore {
+  margin-top: 16px;
+  color: #f0c300;
+  font-weight: bold;
+  font-size: 28px;
+  transition: color 0.3s;
+}
+
+.mainscore:hover {
+  color: #fff700;
+}
+
+.Highscorediv {
+  display: flex;
+  margin-left: 100px;
+}
+
+.Highscore {
+  margin-top: 16px;
+  color: #12f7d6;
+  font-weight: bold;
+  font-size: 28px;
+  transition: color 0.3s;
+}
+
+.Highscore:hover {
+  color: #30ffe4;
+}
+
+.Highscorehead {
+  margin-top: 8px;
+  margin-left: 100px;
+}
+
+/* ==================================================
+   Font Import (Royal Style)
+================================================== */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&display=swap");
