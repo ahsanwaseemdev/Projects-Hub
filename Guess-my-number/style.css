@@ -12,7 +12,7 @@ body {
   width: 1300px;
   margin: auto;
   margin-top: 10px;
-  background-color: #0b0c10;
+  background-color: #0b0c10; /* Unified dark background */
   color: #fff;
   transition: background-color 0.5s ease;
 }
@@ -26,7 +26,7 @@ body {
   column-gap: 15px;
   align-items: center;
   padding: 20px;
-  background-color: #0b2447; /* Deep Royal Blue */
+  background-color: #0b0c10; /* Updated */
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
 }
@@ -96,7 +96,7 @@ body {
    Main Content Section (Middle Div)
 ================================================== */
 .middlediv {
-  background-color: #19376d; /* Royal Navy Blue */
+  background-color: #0b0c10; /* Updated */
   width: 100%;
   height: 550px;
   display: flex;
